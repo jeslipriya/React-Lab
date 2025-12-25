@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body{
+  min-height: 100vh;
+  margin: 0;  
+  background: linear-gradient(135deg, rgb(0, 217, 255), #fcfcfc);
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1{
+  font-weight: bolder;
+  padding-top: 30vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+  font-family: "BBH Hegarty", sans-serif;
+  font-size: 80px;
+}
+
+
+button{
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 15px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover{
+  background-color: blue;
+  color: rgb(0, 217, 255);
+}
