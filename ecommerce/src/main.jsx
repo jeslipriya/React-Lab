@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
 
       <Header />
 
-      <main className="flex-grow">
+      <main className="grow">
         <About />
       </main>
       
